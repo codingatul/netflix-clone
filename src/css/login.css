@@ -1,0 +1,140 @@
+.login {
+  position: relative;
+  height: 100vh;
+  background: url("https://img.wallpapersafari.com/desktop/1680/1050/24/74/zgeTuV.jpg")
+    center no-repeat;
+  background-size: cover;
+}
+.login__logo {
+  position: fixed;
+  width: 100px;
+  top: 10px;
+  left: 10px;
+}
+.login__header button {
+  background-color: #fc0a0a;
+  padding: 10px 20px;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  text-transform: uppercase;
+}
+
+.login__body {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  right: 0;
+  left: 0;
+}
+.login__body h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.login__body h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.login__body h3 {
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.login__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login__form input {
+  width: 300px;
+  height: 40px;
+  padding: 0 15px;
+}
+.login__form button {
+  height: 45px;
+  border: 0;
+  padding: 0 10px;
+  background-color: #fc0a0a;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #fff;
+}
+.login__gradient {
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.signUpScreen {
+  max-width: 300px;
+  background-color: rgba(0, 0, 0.85);
+  padding: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signUpScreen form {
+  display: grid;
+  flex-direction: column;
+}
+.signUpScreen form input {
+  outline: 0;
+  border: 0;
+  height: 40px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+.pass__wrapper {
+  display: grid;
+  position: relative;
+  margin-bottom: 14px;
+}
+.pass__wrapper input {
+  outline: 0;
+  border: 0;
+  height: 40px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+i {
+  position: absolute;
+  top: 28%;
+  right: 7%;
+  color: grey;
+}
+.signUpScreen form button {
+  padding: 16px 20px;
+  font-size: 16px;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  background-color: #e50914;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.signUpScreen form h4 {
+  color: gray;
+}
+.signUpScreen form h4 span {
+  color: #fff;
+  cursor: pointer;
+}
+.signUpScreen form h4 span:hover {
+  text-decoration: underline;
+}
